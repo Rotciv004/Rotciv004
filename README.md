@@ -15,9 +15,6 @@ Second-year student at the Faculty of Mathematics and Computer Science, UBB Cluj
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=Rotciv004&theme=blue_navy&no-frame=false&no-bg=false&margin-w=4)
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
-
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=Rotciv004&limit=5&theme=blue_navy&combine_all_yearly_contributions=true)
 
