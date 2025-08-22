@@ -1,5 +1,5 @@
 # 💫 About Me:
-Second-year student at the Faculty of Mathematics and Computer Science, UBB Cluj-Napoca.<br>Level of English: Reading B2, Writing B2, Listening B2, Speaking B2, Use of English B2.<br>Experienced user of Microsoft Office.
+Second-year student at the Faculty of Mathematics and Computer Science, UBB Cluj-Napoca.<br>Level of English: Reading B2, Writing B2, Listening B2, Speaking B2, Use of English B2.
 
 
 ## 🌐 Socials:
@@ -21,6 +21,8 @@ Second-year student at the Faculty of Mathematics and Computer Science, UBB Cluj
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
 ![AssemblyScript](https://img.shields.io/badge/assembly%20script-%23000000.svg?style=for-the-badge&logo=assemblyscript&logoColor=white) 
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-F37626.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+![Microsoft Office](https://img.shields.io/badge/Microsoft_Office-D83B01?style=for-the-badge&logo=microsoft-office&logoColor=white)
+
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=Rotciv004&theme=blue_navy&hide_border=false&include_all_commits=true&count_private=true)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=Rotciv004&theme=blue_navy&hide_border=false)<br/>
