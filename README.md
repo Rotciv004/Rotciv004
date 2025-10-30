@@ -1,5 +1,5 @@
 # 💫 About Me:
-Second-year student at the Faculty of Mathematics and Computer Science, UBB Cluj-Napoca.<br>Level of English: Reading B2, Writing B2, Listening B2, Speaking B2, Use of English B2.
+Student at the Faculty of Mathematics and Computer Science, UBB Cluj-Napoca.<br>Level of English B2.
 
 
 ## 🌐 Socials:
