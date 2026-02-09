@@ -31,6 +31,7 @@ Student at the Faculty of Mathematics and Computer Science, UBB Cluj-Napoca.
 
 ### Tools & Platforms
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) 
+![GitLab](https://img.shields.io/badge/gitlab-%23FC6D26.svg?style=for-the-badge&logo=gitlab&logoColor=white)
 ![Unity](https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white) 
 ![Cisco](https://img.shields.io/badge/cisco-%23049fd9.svg?style=for-the-badge&logo=cisco&logoColor=black) 
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-F37626.svg?style=for-the-badge&logo=jupyter&logoColor=white)
