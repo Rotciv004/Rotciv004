@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="34" viewBox="0 0 1200 34" role="img" aria-label="Animated section divider">
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="0.25" stop-color="#38bdf8" stop-opacity="0.38"/>
+      <stop offset="0.5" stop-color="#8b5cf6" stop-opacity="0.52"/>
+      <stop offset="0.75" stop-color="#38bdf8" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="light"><stop stop-color="#ffffff"/><stop offset="0.3" stop-color="#67e8f9"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
+    <filter id="blur" x="-200%" y="-400%" width="500%" height="900%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+  <rect x="90" y="16" width="1020" height="2" rx="1" fill="url(#base)"/>
+  <ellipse cx="120" cy="17" rx="54" ry="10" fill="url(#light)" opacity="0.75" filter="url(#blur)">
+    <animate attributeName="cx" values="120;1080;120" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.8;0" dur="7s" repeatCount="indefinite"/>
+  </ellipse>
+  <circle cx="120" cy="17" r="3" fill="#e0f2fe">
+    <animate attributeName="cx" values="120;1080;120" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;0" dur="7s" repeatCount="indefinite"/>
+  </circle>
+</svg>

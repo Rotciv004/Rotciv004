@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="78" viewBox="0 0 360 78" role="img" aria-labelledby="t d">
+  <title id="t">Cluj-Napoca on Google Maps</title><desc id="d">A modern animated glass button opening Cluj-Napoca, Romania in Google Maps.</desc>
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071d22"/><stop offset="1" stop-color="#14b8a6" stop-opacity="0.16"/></linearGradient>
+    <linearGradient id="shine"><stop stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".16"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="clip"><rect width="360" height="78" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="360" height="78" fill="url(#card)"/>
+    <circle cx="354" cy="0" r="86" fill="#14b8a6" opacity="0.11"><animate attributeName="r" values="72;96;72" dur="7.3s" repeatCount="indefinite"/></circle>
+    <rect x="-100" width="70" height="78" fill="url(#shine)" transform="skewX(-18)"><animate attributeName="x" values="-100;450" dur="6.5s" repeatCount="indefinite"/></rect>
+    <rect x="17" y="16" width="46" height="46" rx="14" fill="#0f766e"/>
+    <path d="M40 27c-7 0-12 5-12 12 0 9 12 17 12 17s12-8 12-17c0-7-5-12-12-12z" fill="none" stroke="#fff" stroke-width="2.3"/>
+    <circle cx="40" cy="39" r="4" fill="#fff" filter="url(#glow)"><animate attributeName="r" values="3.2;4.8;3.2" dur="2.4s" repeatCount="indefinite"/></circle>
+    <text x="79" y="34" fill="#f8fafc" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="17" font-weight="700">Cluj-Napoca, Romania</text>
+    <text x="79" y="54" fill="#94a3b8" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="12.5">46.7712° N · 23.6236° E</text>
+    <circle cx="328" cy="39" r="18" fill="#fff" fill-opacity="0.07" stroke="#fff" stroke-opacity="0.12"/>
+    <path d="M322 39h11m-4-4 4 4-4 4" fill="none" stroke="#99f6e4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+      <animateTransform attributeName="transform" type="translate" values="-2 0;3 0;-2 0" dur="2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <rect x="1" y="1" width="358" height="76" rx="19" fill="none" stroke="#2dd4bf" stroke-opacity="0.26"/>
+</svg>

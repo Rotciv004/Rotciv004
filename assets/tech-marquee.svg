@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="210" viewBox="0 0 1200 210" role="img" aria-labelledby="title desc">
+  <title id="title">Technology stack — animated marquee</title>
+  <desc id="desc">Two continuously scrolling rows of the languages, frameworks, platforms, and tools used across Victor's repositories.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020617"/><stop offset="1" stop-color="#0f172a"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#22d3ee"/><stop offset=".5" stop-color="#38bdf8"/><stop offset="1" stop-color="#818cf8"/></linearGradient>
+    <linearGradient id="fade"><stop stop-color="#020617"/><stop offset=".18" stop-color="#020617" stop-opacity="0"/><stop offset=".82" stop-color="#020617" stop-opacity="0"/><stop offset="1" stop-color="#020617"/></linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="lanes"><rect x="0" y="54" width="1200" height="140"/></clipPath>
+    <clipPath id="frame"><rect width="1200" height="210" rx="22"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="210" fill="url(#bg)"/>
+    <text x="38" y="34" fill="#94a3b8" font-family="JetBrains Mono, Consolas, monospace" font-size="12" letter-spacing="2.5">REPOSITORY-DERIVED TOOLBOX</text>
+    <g transform="translate(1134 30)">
+      <circle cx="-95" cy="0" r="4" fill="#22d3ee" filter="url(#glow)"><animate attributeName="opacity" values="1;.2;1" dur="1.4s" repeatCount="indefinite"/></circle>
+      <text x="-82" y="4" fill="#64748b" font-family="JetBrains Mono, Consolas, monospace" font-size="11">LIVE MARQUEE</text>
+    </g>
+
+    <g clip-path="url(#lanes)" font-family="JetBrains Mono, Consolas, monospace" font-size="13" font-weight="600">
+      <g transform="translate(0 58)">
+        <g>
+          <animateTransform attributeName="transform" type="translate" from="0 0" to="-1200 0" dur="25s" repeatCount="indefinite"/>
+          <g>
+            <g transform="translate(6)"><rect width="138" height="52" rx="17" fill="#082f49" stroke="#38bdf8" stroke-opacity=".38"/><circle cx="25" cy="26" r="8" fill="#38bdf8" filter="url(#glow)"/><text x="44" y="31" fill="#e0f2fe">C++23</text></g>
+            <g transform="translate(156)"><rect width="138" height="52" rx="17" fill="#172554" stroke="#818cf8" stroke-opacity=".38"/><circle cx="25" cy="26" r="8" fill="#818cf8"/><text x="44" y="31" fill="#eef2ff">Qt / QML</text></g>
+            <g transform="translate(306)"><rect width="138" height="52" rx="17" fill="#082f49" stroke="#22d3ee" stroke-opacity=".38"/><circle cx="25" cy="26" r="8" fill="#22d3ee"/><text x="44" y="31" fill="#ecfeff">Linux</text></g>
+            <g transform="translate(456)"><rect width="138" height="52" rx="17" fill="#1e1b4b" stroke="#a5b4fc" stroke-opacity=".38"/><circle cx="25" cy="26" r="8" fill="#a5b4fc"/><text x="44" y="31" fill="#eef2ff">.NET</text></g>
+            <g transform="translate(606)"><rect width="138" height="52" rx="17" fill="#052e2b" stroke="#34d399" stroke-opacity=".38"/><circle cx="25" cy="26" r="8" fill="#34d399"/><text x="44" y="31" fill="#ecfdf5">Kotlin</text></g>
+            <g transform="translate(756)"><rect width="138" height="52" rx="17" fill="#082f49" stroke="#38bdf8" stroke-opacity=".38"/><circle cx="25" cy="26" r="8" fill="#38bdf8"/><text x="44" y="31" fill="#e0f2fe">Flutter</text></g>
+            <g transform="translate(906)"><rect width="138" height="52" rx="17" fill="#3b0764" stroke="#c084fc" stroke-opacity=".38"/><circle cx="25" cy="26" r="8" fill="#c084fc"/><text x="44" y="31" fill="#faf5ff">Python</text></g>
+            <g transform="translate(1056)"><rect width="138" height="52" rx="17" fill="#451a03" stroke="#fbbf24" stroke-opacity=".38"/><circle cx="25" cy="26" r="8" fill="#fbbf24"/><text x="44" y="31" fill="#fffbeb">CMake</text></g>
+          </g>
+          <g transform="translate(1200)">
+            <g transform="translate(6)"><rect width="138" height="52" rx="17" fill="#082f49" stroke="#38bdf8" stroke-opacity=".38"/><circle cx="25" cy="26" r="8" fill="#38bdf8" filter="url(#glow)"/><text x="44" y="31" fill="#e0f2fe">C++23</text></g>
+            <g transform="translate(156)"><rect width="138" height="52" rx="17" fill="#172554" stroke="#818cf8" stroke-opacity=".38"/><circle cx="25" cy="26" r="8" fill="#818cf8"/><text x="44" y="31" fill="#eef2ff">Qt / QML</text></g>
+            <g transform="translate(306)"><rect width="138" height="52" rx="17" fill="#082f49" stroke="#22d3ee" stroke-opacity=".38"/><circle cx="25" cy="26" r="8" fill="#22d3ee"/><text x="44" y="31" fill="#ecfeff">Linux</text></g>
+            <g transform="translate(456)"><rect width="138" height="52" rx="17" fill="#1e1b4b" stroke="#a5b4fc" stroke-opacity=".38"/><circle cx="25" cy="26" r="8" fill="#a5b4fc"/><text x="44" y="31" fill="#eef2ff">.NET</text></g>
+            <g transform="translate(606)"><rect width="138" height="52" rx="17" fill="#052e2b" stroke="#34d399" stroke-opacity=".38"/><circle cx="25" cy="26" r="8" fill="#34d399"/><text x="44" y="31" fill="#ecfdf5">Kotlin</text></g>
+            <g transform="translate(756)"><rect width="138" height="52" rx="17" fill="#082f49" stroke="#38bdf8" stroke-opacity=".38"/><circle cx="25" cy="26" r="8" fill="#38bdf8"/><text x="44" y="31" fill="#e0f2fe">Flutter</text></g>
+            <g transform="translate(906)"><rect width="138" height="52" rx="17" fill="#3b0764" stroke="#c084fc" stroke-opacity=".38"/><circle cx="25" cy="26" r="8" fill="#c084fc"/><text x="44" y="31" fill="#faf5ff">Python</text></g>
+            <g transform="translate(1056)"><rect width="138" height="52" rx="17" fill="#451a03" stroke="#fbbf24" stroke-opacity=".38"/><circle cx="25" cy="26" r="8" fill="#fbbf24"/><text x="44" y="31" fill="#fffbeb">CMake</text></g>
+          </g>
+        </g>
+      </g>
+
+      <g transform="translate(0 124)">
+        <g transform="translate(-1200 0)">
+          <animateTransform attributeName="transform" type="translate" from="-1200 0" to="0 0" dur="29s" repeatCount="indefinite"/>
+          <g>
+            <g transform="translate(6)"><rect width="138" height="52" rx="17" fill="#052e2b" stroke="#34d399" stroke-opacity=".38"/><circle cx="25" cy="26" r="8" fill="#34d399"/><text x="44" y="31" fill="#ecfdf5">ESP32</text></g>
+            <g transform="translate(156)"><rect width="138" height="52" rx="17" fill="#3b0764" stroke="#d8b4fe" stroke-opacity=".38"/><circle cx="25" cy="26" r="8" fill="#d8b4fe"/><text x="44" y="31" fill="#faf5ff">OpenCV</text></g>
+            <g transform="translate(306)"><rect width="138" height="52" rx="17" fill="#2e1065" stroke="#c084fc" stroke-opacity=".38"/><circle cx="25" cy="26" r="8" fill="#c084fc"/><text x="44" y="31" fill="#faf5ff">PyTorch</text></g>
+            <g transform="translate(456)"><rect width="138" height="52" rx="17" fill="#172554" stroke="#818cf8" stroke-opacity=".38"/><circle cx="25" cy="26" r="8" fill="#818cf8"/><text x="44" y="31" fill="#eef2ff">SignalR</text></g>
+            <g transform="translate(606)"><rect width="138" height="52" rx="17" fill="#450a0a" stroke="#f87171" stroke-opacity=".38"/><circle cx="25" cy="26" r="8" fill="#f87171"/><text x="44" y="31" fill="#fef2f2">SQL</text></g>
+            <g transform="translate(756)"><rect width="138" height="52" rx="17" fill="#082f49" stroke="#38bdf8" stroke-opacity=".38"/><circle cx="25" cy="26" r="8" fill="#38bdf8"/><text x="44" y="31" fill="#e0f2fe">Git</text></g>
+            <g transform="translate(906)"><rect width="138" height="52" rx="17" fill="#1e293b" stroke="#94a3b8" stroke-opacity=".38"/><circle cx="25" cy="26" r="8" fill="#94a3b8"/><text x="44" y="31" fill="#f8fafc">Testing</text></g>
+            <g transform="translate(1056)"><rect width="138" height="52" rx="17" fill="#451a03" stroke="#fbbf24" stroke-opacity=".38"/><circle cx="25" cy="26" r="8" fill="#fbbf24"/><text x="44" y="31" fill="#fffbeb">ANTLR</text></g>
+          </g>
+          <g transform="translate(1200)">
+            <g transform="translate(6)"><rect width="138" height="52" rx="17" fill="#052e2b" stroke="#34d399" stroke-opacity=".38"/><circle cx="25" cy="26" r="8" fill="#34d399"/><text x="44" y="31" fill="#ecfdf5">ESP32</text></g>
+            <g transform="translate(156)"><rect width="138" height="52" rx="17" fill="#3b0764" stroke="#d8b4fe" stroke-opacity=".38"/><circle cx="25" cy="26" r="8" fill="#d8b4fe"/><text x="44" y="31" fill="#faf5ff">OpenCV</text></g>
+            <g transform="translate(306)"><rect width="138" height="52" rx="17" fill="#2e1065" stroke="#c084fc" stroke-opacity=".38"/><circle cx="25" cy="26" r="8" fill="#c084fc"/><text x="44" y="31" fill="#faf5ff">PyTorch</text></g>
+            <g transform="translate(456)"><rect width="138" height="52" rx="17" fill="#172554" stroke="#818cf8" stroke-opacity=".38"/><circle cx="25" cy="26" r="8" fill="#818cf8"/><text x="44" y="31" fill="#eef2ff">SignalR</text></g>
+            <g transform="translate(606)"><rect width="138" height="52" rx="17" fill="#450a0a" stroke="#f87171" stroke-opacity=".38"/><circle cx="25" cy="26" r="8" fill="#f87171"/><text x="44" y="31" fill="#fef2f2">SQL</text></g>
+            <g transform="translate(756)"><rect width="138" height="52" rx="17" fill="#082f49" stroke="#38bdf8" stroke-opacity=".38"/><circle cx="25" cy="26" r="8" fill="#38bdf8"/><text x="44" y="31" fill="#e0f2fe">Git</text></g>
+            <g transform="translate(906)"><rect width="138" height="52" rx="17" fill="#1e293b" stroke="#94a3b8" stroke-opacity=".38"/><circle cx="25" cy="26" r="8" fill="#94a3b8"/><text x="44" y="31" fill="#f8fafc">Testing</text></g>
+            <g transform="translate(1056)"><rect width="138" height="52" rx="17" fill="#451a03" stroke="#fbbf24" stroke-opacity=".38"/><circle cx="25" cy="26" r="8" fill="#fbbf24"/><text x="44" y="31" fill="#fffbeb">ANTLR</text></g>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <rect x="0" y="50" width="1200" height="148" fill="url(#fade)" pointer-events="none"/>
+    <rect x="0" y="52" width="4" height="142" rx="2" fill="url(#accent)" filter="url(#glow)"><animate attributeName="x" values="0;1196;0" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="7s" repeatCount="indefinite"/></rect>
+  </g>
+  <rect x="1" y="1" width="1198" height="208" rx="21" fill="none" stroke="url(#accent)" stroke-opacity=".24"/>
+</svg>

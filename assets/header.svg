@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Victor Boar — Software Engineer and Research Assistant</title>
+  <desc id="desc">A modern animated aurora banner introducing Victor Boar and his work across native systems, backend engineering, artificial intelligence, and connected devices.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#050816"/>
+      <stop offset="0.52" stop-color="#081125"/>
+      <stop offset="1" stop-color="#10142f"/>
+    </linearGradient>
+    <linearGradient id="nameGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#f8fafc"/>
+      <stop offset="0.45" stop-color="#bae6fd"/>
+      <stop offset="1" stop-color="#c4b5fd"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#22d3ee">
+        <animate attributeName="stop-color" values="#22d3ee;#60a5fa;#22d3ee" dur="9s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#8b5cf6">
+        <animate attributeName="stop-color" values="#8b5cf6;#ec4899;#8b5cf6" dur="9s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <radialGradient id="auroraBlue">
+      <stop stop-color="#0ea5e9" stop-opacity="0.58"/>
+      <stop offset="1" stop-color="#0ea5e9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="auroraViolet">
+      <stop stop-color="#8b5cf6" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sphere" cx="35%" cy="30%" r="72%">
+      <stop stop-color="#bae6fd" stop-opacity="0.95"/>
+      <stop offset="0.18" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="0.55" stop-color="#4f46e5" stop-opacity="0.46"/>
+      <stop offset="1" stop-color="#111827" stop-opacity="0.05"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ffffff" stop-opacity="0.11"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.035"/>
+    </linearGradient>
+    <filter id="blur40" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="38"/>
+    </filter>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect width="1200" height="420" rx="32"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="420" fill="url(#background)"/>
+
+    <ellipse cx="960" cy="52" rx="360" ry="240" fill="url(#auroraBlue)" filter="url(#blur40)">
+      <animate attributeName="cx" values="960;820;960" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="52;120;52" dur="14s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="1080" cy="370" rx="330" ry="220" fill="url(#auroraViolet)" filter="url(#blur40)">
+      <animate attributeName="cx" values="1080;930;1080" dur="17s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="370;295;370" dur="17s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="130" cy="420" rx="300" ry="170" fill="url(#auroraBlue)" opacity="0.26" filter="url(#blur40)">
+      <animate attributeName="cx" values="130;260;130" dur="19s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <g transform="translate(78 14)">
+      <rect width="238" height="34" rx="17" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.13"/>
+      <circle cx="19" cy="17" r="5" fill="#34d399" filter="url(#softGlow)">
+        <animate attributeName="r" values="4;6;4" dur="2.3s" repeatCount="indefinite"/>
+      </circle>
+      <text x="34" y="22" fill="#dbeafe" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="12" font-weight="650" letter-spacing="1.2">OPEN TO NEW OPPORTUNITIES</text>
+    </g>
+
+    <g transform="translate(78 140)">
+      <text x="0" y="0" fill="url(#nameGradient)" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="82" font-weight="800" letter-spacing="-2">VICTOR</text>
+      <text x="0" y="78" fill="url(#nameGradient)" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="82" font-weight="800" letter-spacing="-2">BOAR</text>
+      <rect x="0" y="102" width="62" height="5" rx="3" fill="url(#accent)" filter="url(#softGlow)">
+        <animate attributeName="width" values="62;128;62" dur="5s" repeatCount="indefinite"/>
+      </rect>
+      <text x="0" y="144" fill="#e2e8f0" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="23" font-weight="650">Software Engineer · Research Assistant</text>
+      <text x="0" y="177" fill="#94a3b8" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="17">Designing reliable software from interface to infrastructure.</text>
+    </g>
+
+    <g transform="translate(78 333)" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="13" font-weight="650">
+      <g>
+        <rect width="150" height="42" rx="21" fill="url(#glass)" stroke="#38bdf8" stroke-opacity="0.24"/>
+        <circle cx="22" cy="21" r="5" fill="#22d3ee"/>
+        <text x="38" y="26" fill="#e0f2fe">Native systems</text>
+      </g>
+      <g transform="translate(164)">
+        <rect width="172" height="42" rx="21" fill="url(#glass)" stroke="#818cf8" stroke-opacity="0.24"/>
+        <circle cx="22" cy="21" r="5" fill="#818cf8"/>
+        <text x="38" y="26" fill="#eef2ff">Backend &amp; realtime</text>
+      </g>
+      <g transform="translate(350)">
+        <rect width="146" height="42" rx="21" fill="url(#glass)" stroke="#c084fc" stroke-opacity="0.24"/>
+        <circle cx="22" cy="21" r="5" fill="#c084fc"/>
+        <text x="38" y="26" fill="#faf5ff">AI integration</text>
+      </g>
+    </g>
+
+    <g transform="translate(918 210)">
+      <circle r="116" fill="url(#sphere)" opacity="0.94"/>
+      <circle r="146" fill="none" stroke="#bae6fd" stroke-opacity="0.23" stroke-width="2"/>
+      <ellipse rx="178" ry="64" fill="none" stroke="url(#accent)" stroke-opacity="0.7" stroke-width="2" transform="rotate(-18)">
+        <animateTransform attributeName="transform" type="rotate" from="-18" to="342" dur="18s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse rx="156" ry="48" fill="none" stroke="#c4b5fd" stroke-opacity="0.36" stroke-width="1.5" transform="rotate(58)">
+        <animateTransform attributeName="transform" type="rotate" from="58" to="-302" dur="22s" repeatCount="indefinite"/>
+      </ellipse>
+      <circle cx="164" cy="-54" r="8" fill="#67e8f9" filter="url(#softGlow)">
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="18s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="-106" cy="-102" r="6" fill="#c4b5fd" filter="url(#softGlow)">
+        <animate attributeName="opacity" values="0.35;1;0.35" dur="3s" repeatCount="indefinite"/>
+      </circle>
+      <path d="M-70 22C-20-36 29-25 72-72" fill="none" stroke="#ffffff" stroke-opacity="0.26" stroke-width="2"/>
+      <path d="M-72 59C-16 16 38 30 79-17" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="2"/>
+      <circle r="13" fill="#f8fafc" fill-opacity="0.85" filter="url(#softGlow)">
+        <animate attributeName="r" values="11;15;11" dur="4s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <g fill="#ffffff">
+      <circle cx="700" cy="70" r="2" opacity="0.35"><animate attributeName="cy" values="70;52;70" dur="5s" repeatCount="indefinite"/></circle>
+      <circle cx="1110" cy="92" r="3" opacity="0.28"><animate attributeName="cy" values="92;70;92" dur="6s" repeatCount="indefinite"/></circle>
+      <circle cx="760" cy="348" r="2" opacity="0.32"><animate attributeName="cy" values="348;326;348" dur="7s" repeatCount="indefinite"/></circle>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="418" rx="31" fill="none" stroke="#ffffff" stroke-opacity="0.09"/>
+</svg>

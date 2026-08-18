@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+  <title id="title">Engineering focus — animated carousel</title>
+  <desc id="desc">Four rotating focus areas: native systems, backend and realtime, mobile and embedded, and AI integration.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020617"/><stop offset="1" stop-color="#111827"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#22d3ee"/><stop offset=".5" stop-color="#38bdf8"/><stop offset="1" stop-color="#818cf8"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#0ea5e9" stop-opacity=".28"/><stop offset="1" stop-color="#0ea5e9" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#38bdf8" stroke-opacity=".065"/></pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="frame"><rect width="1200" height="260" rx="22"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="260" fill="url(#bg)"/>
+    <rect width="1200" height="260" fill="url(#grid)"/>
+    <circle cx="1050" cy="40" r="260" fill="url(#halo)"><animate attributeName="cx" values="1050;930;1050" dur="9s" repeatCount="indefinite"/></circle>
+    <text x="42" y="42" fill="#64748b" font-family="JetBrains Mono, Consolas, monospace" font-size="12" letter-spacing="2.5">WHAT I LIKE TO BUILD</text>
+    <g transform="translate(1040 38)" font-family="JetBrains Mono, Consolas, monospace" font-size="11" fill="#94a3b8">
+      <circle cx="-88" cy="-4" r="4" fill="#34d399" filter="url(#glow)"><animate attributeName="opacity" values="1;.2;1" dur="1.2s" repeatCount="indefinite"/></circle>
+      <text x="-76" y="0">ROTATING FOCUS</text>
+    </g>
+
+    <g opacity="1">
+      <animate attributeName="opacity" values="1;0;0;0;1" keyTimes="0;.25;.5;.75;1" calcMode="discrete" dur="20s" repeatCount="indefinite"/>
+      <g transform="translate(88 84)">
+        <circle cx="58" cy="58" r="54" fill="#0c4a6e" stroke="#38bdf8" stroke-opacity=".55" stroke-width="2" stroke-dasharray="9 7"><animateTransform attributeName="transform" type="rotate" from="0 58 58" to="360 58 58" dur="10s" repeatCount="indefinite"/></circle>
+        <path d="M30 75h56M38 48h40M48 30v64M68 30v64" stroke="#bae6fd" stroke-width="5" stroke-linecap="round" opacity=".9"/>
+      </g>
+      <g transform="translate(250 82)">
+        <text y="40" fill="#f8fafc" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="42" font-weight="800">Native systems that feel effortless</text>
+        <text y="78" fill="#cbd5e1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="19">C++ / Qt interfaces, Linux services, D-Bus integration, explicit state, and testable boundaries.</text>
+        <text y="112" fill="#38bdf8" font-family="JetBrains Mono, Consolas, monospace" font-size="14" letter-spacing="1.4">C++23  ·  QT 6  ·  QML  ·  CMAKE  ·  FEDORA</text>
+      </g>
+    </g>
+
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1;0;0;0" keyTimes="0;.25;.5;.75;1" calcMode="discrete" dur="20s" repeatCount="indefinite"/>
+      <g transform="translate(88 84)">
+        <circle cx="58" cy="58" r="54" fill="#312e81" stroke="#818cf8" stroke-opacity=".6" stroke-width="2" stroke-dasharray="9 7"><animateTransform attributeName="transform" type="rotate" from="360 58 58" to="0 58 58" dur="11s" repeatCount="indefinite"/></circle>
+        <circle cx="40" cy="48" r="10" fill="#c7d2fe"/><circle cx="78" cy="48" r="10" fill="#c7d2fe"/><circle cx="59" cy="80" r="10" fill="#a5b4fc" filter="url(#glow)"/>
+        <path d="M48 52l15 23M70 52L56 75" stroke="#e0e7ff" stroke-width="4"/>
+      </g>
+      <g transform="translate(250 82)">
+        <text y="40" fill="#f8fafc" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="42" font-weight="800">Backends built for live collaboration</text>
+        <text y="78" fill="#cbd5e1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="19">Layered .NET systems, robust data access, permission models, REST APIs, and realtime events.</text>
+        <text y="112" fill="#a5b4fc" font-family="JetBrains Mono, Consolas, monospace" font-size="14" letter-spacing="1.4">.NET 8/10  ·  SIGNALR  ·  EF CORE  ·  DAPPER  ·  SQL</text>
+      </g>
+    </g>
+
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;.25;.5;.75;1" calcMode="discrete" dur="20s" repeatCount="indefinite"/>
+      <g transform="translate(88 84)">
+        <circle cx="58" cy="58" r="54" fill="#064e3b" stroke="#34d399" stroke-opacity=".6" stroke-width="2" stroke-dasharray="9 7"><animateTransform attributeName="transform" type="rotate" from="0 58 58" to="360 58 58" dur="12s" repeatCount="indefinite"/></circle>
+        <rect x="34" y="24" width="48" height="72" rx="10" fill="none" stroke="#a7f3d0" stroke-width="6"/><circle cx="58" cy="84" r="4" fill="#6ee7b7"/>
+        <path d="M49 50c12-16 25-10 26-10-2 17-11 27-26 27 1-6 1-12 0-17z" fill="#6ee7b7" filter="url(#glow)"/>
+      </g>
+      <g transform="translate(250 82)">
+        <text y="40" fill="#f8fafc" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="42" font-weight="800">Apps connected to the physical world</text>
+        <text y="78" fill="#cbd5e1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="19">Mobile UX, local-first behavior, sensors, controllers, and hardware-to-software feedback loops.</text>
+        <text y="112" fill="#6ee7b7" font-family="JetBrains Mono, Consolas, monospace" font-size="14" letter-spacing="1.4">KOTLIN  ·  COMPOSE  ·  FLUTTER  ·  ESP32  ·  ARDUINO</text>
+      </g>
+    </g>
+
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;0;1;0" keyTimes="0;.25;.5;.75;1" calcMode="discrete" dur="20s" repeatCount="indefinite"/>
+      <g transform="translate(88 84)">
+        <circle cx="58" cy="58" r="54" fill="#3b0764" stroke="#c084fc" stroke-opacity=".6" stroke-width="2" stroke-dasharray="9 7"><animateTransform attributeName="transform" type="rotate" from="360 58 58" to="0 58 58" dur="9s" repeatCount="indefinite"/></circle>
+        <path d="M31 64c10-8 18-10 28-2 10-8 19-6 28 2M37 46c7-7 14-7 21 0 7-7 14-7 21 0M45 82c9-7 18-7 27 0" fill="none" stroke="#e9d5ff" stroke-width="6" stroke-linecap="round"/>
+        <circle cx="59" cy="62" r="7" fill="#d8b4fe" filter="url(#glow)"/>
+      </g>
+      <g transform="translate(250 82)">
+        <text y="40" fill="#f8fafc" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="42" font-weight="800">AI integrated where it creates value</text>
+        <text y="78" fill="#cbd5e1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="19">Vision pipelines, numerical experiments, model integration, and engineering around inference.</text>
+        <text y="112" fill="#d8b4fe" font-family="JetBrains Mono, Consolas, monospace" font-size="14" letter-spacing="1.4">PYTHON  ·  OPENCV  ·  OPENVINO  ·  PYTORCH  ·  NUMPY</text>
+      </g>
+    </g>
+
+    <g transform="translate(475 232)">
+      <rect width="250" height="3" rx="2" fill="#1e293b"/>
+      <rect width="62.5" height="3" rx="2" fill="url(#accent)" filter="url(#glow)"><animate attributeName="x" values="0;62.5;125;187.5;0" keyTimes="0;.25;.5;.75;1" calcMode="discrete" dur="20s" repeatCount="indefinite"/></rect>
+    </g>
+  </g>
+  <rect x="1" y="1" width="1198" height="258" rx="21" fill="none" stroke="url(#accent)" stroke-opacity=".28"/>
+</svg>

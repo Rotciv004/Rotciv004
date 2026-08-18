@@ -1,0 +1,241 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">Selected projects — animated carousel</title>
+  <desc id="desc">An automatic carousel highlighting AtlasVeil VPN, Digital Triage, Smart Irrigation, Shopping List Sharing, BOAR Language, and AI experiments.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset="0.55" stop-color="#0b1224"/>
+      <stop offset="1" stop-color="#111c3b"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#818cf8"/>
+    </linearGradient>
+    <linearGradient id="meter" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.2"/>
+      <stop offset="0.52" stop-color="#e0f2fe"/>
+      <stop offset="1" stop-color="#818cf8" stop-opacity="0.2"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#38bdf8" opacity="0.13"/>
+    </pattern>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="smallGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect width="1200" height="430" rx="26"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="430" fill="url(#bg)"/>
+    <rect width="1200" height="430" fill="url(#dots)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;28 28" dur="8s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="1010" cy="120" r="330" fill="url(#orb)">
+      <animate attributeName="cx" values="1010;920;1010" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.65;1;0.65" dur="5s" repeatCount="indefinite"/>
+    </circle>
+
+    <g font-family="JetBrains Mono, Consolas, monospace">
+      <circle cx="46" cy="38" r="5" fill="#34d399" filter="url(#smallGlow)">
+        <animate attributeName="opacity" values="1;0.25;1" dur="1.2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="62" y="43" fill="#94a3b8" font-size="13" letter-spacing="2">FEATURED PROJECT STREAM</text>
+      <text x="1138" y="43" text-anchor="end" fill="#64748b" font-size="12">AUTO · 05 SEC</text>
+    </g>
+
+    <path d="M38 66H1162" stroke="#1e3a5f"/>
+
+    <!-- 01 · AtlasVeil VPN -->
+    <g opacity="1">
+      <animate attributeName="opacity" values="1;0;0;0;0;0;1" keyTimes="0;0.1667;0.3333;0.5;0.6667;0.8333;1" calcMode="discrete" dur="30s" repeatCount="indefinite"/>
+      <g transform="translate(100 118)">
+        <circle cx="94" cy="94" r="92" fill="#0ea5e9" fill-opacity="0.09" stroke="#22d3ee" stroke-opacity="0.5" stroke-width="2" stroke-dasharray="12 9">
+          <animateTransform attributeName="transform" type="rotate" from="0 94 94" to="360 94 94" dur="14s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="94" cy="94" r="70" fill="#082f49" stroke="#38bdf8" stroke-opacity="0.32"/>
+        <path d="M94 45l43 16v32c0 32-18 54-43 67-25-13-43-35-43-67V61z" fill="none" stroke="#67e8f9" stroke-width="7" stroke-linejoin="round" filter="url(#smallGlow)"/>
+        <path d="M75 95l13 13 27-31" fill="none" stroke="#a5f3fc" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <g transform="translate(350 105)">
+        <text x="0" y="28" fill="#22d3ee" font-family="JetBrains Mono, Consolas, monospace" font-size="14" letter-spacing="3">01 / NATIVE SYSTEMS</text>
+        <text x="0" y="88" fill="#f8fafc" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="52" font-weight="800">AtlasVeil VPN</text>
+        <text x="0" y="128" fill="#cbd5e1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="20">Native Fedora/KDE WireGuard controller built around</text>
+        <text x="0" y="157" fill="#cbd5e1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="20">asynchronous states, D-Bus, and a clean OS/UI boundary.</text>
+        <g transform="translate(0 190)" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#e0f2fe">
+          <rect width="92" height="34" rx="17" fill="#0ea5e9" fill-opacity="0.17" stroke="#38bdf8" stroke-opacity="0.38"/><text x="46" y="22" text-anchor="middle">C++23</text>
+          <rect x="104" width="76" height="34" rx="17" fill="#0ea5e9" fill-opacity="0.17" stroke="#38bdf8" stroke-opacity="0.38"/><text x="142" y="22" text-anchor="middle">Qt 6</text>
+          <rect x="192" width="82" height="34" rx="17" fill="#0ea5e9" fill-opacity="0.17" stroke="#38bdf8" stroke-opacity="0.38"/><text x="233" y="22" text-anchor="middle">QML</text>
+          <rect x="286" width="108" height="34" rx="17" fill="#0ea5e9" fill-opacity="0.17" stroke="#38bdf8" stroke-opacity="0.38"/><text x="340" y="22" text-anchor="middle">WireGuard</text>
+          <rect x="406" width="88" height="34" rx="17" fill="#0ea5e9" fill-opacity="0.17" stroke="#38bdf8" stroke-opacity="0.38"/><text x="450" y="22" text-anchor="middle">D-Bus</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- 02 · Digital Triage -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1;0;0;0;0;0" keyTimes="0;0.1667;0.3333;0.5;0.6667;0.8333;1" calcMode="discrete" dur="30s" repeatCount="indefinite"/>
+      <g transform="translate(100 118)">
+        <circle cx="94" cy="94" r="92" fill="#6366f1" fill-opacity="0.09" stroke="#818cf8" stroke-opacity="0.5" stroke-width="2" stroke-dasharray="12 9">
+          <animateTransform attributeName="transform" type="rotate" from="0 94 94" to="360 94 94" dur="15s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="94" cy="94" r="70" fill="#1e1b4b" stroke="#a5b4fc" stroke-opacity="0.32"/>
+        <rect x="74" y="44" width="40" height="100" rx="8" fill="#c7d2fe"/>
+        <rect x="44" y="74" width="100" height="40" rx="8" fill="#c7d2fe"/>
+        <circle cx="94" cy="94" r="18" fill="#818cf8" filter="url(#smallGlow)"/>
+      </g>
+      <g transform="translate(350 105)">
+        <text x="0" y="28" fill="#a5b4fc" font-family="JetBrains Mono, Consolas, monospace" font-size="14" letter-spacing="3">02 / FULL-STACK HEALTHCARE</text>
+        <text x="0" y="88" fill="#f8fafc" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="52" font-weight="800">Digital Triage</text>
+        <text x="0" y="128" fill="#cbd5e1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="20">Role-based medical platform with permission-aware data,</text>
+        <text x="0" y="157" fill="#cbd5e1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="20">records, attachments, analytics, and automated tests.</text>
+        <g transform="translate(0 190)" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#eef2ff">
+          <rect width="88" height="34" rx="17" fill="#6366f1" fill-opacity="0.17" stroke="#818cf8" stroke-opacity="0.4"/><text x="44" y="22" text-anchor="middle">.NET 8</text>
+          <rect x="100" width="110" height="34" rx="17" fill="#6366f1" fill-opacity="0.17" stroke="#818cf8" stroke-opacity="0.4"/><text x="155" y="22" text-anchor="middle">Blazor</text>
+          <rect x="222" width="110" height="34" rx="17" fill="#6366f1" fill-opacity="0.17" stroke="#818cf8" stroke-opacity="0.4"/><text x="277" y="22" text-anchor="middle">EF Core</text>
+          <rect x="344" width="128" height="34" rx="17" fill="#6366f1" fill-opacity="0.17" stroke="#818cf8" stroke-opacity="0.4"/><text x="408" y="22" text-anchor="middle">SQL Server</text>
+          <rect x="484" width="76" height="34" rx="17" fill="#6366f1" fill-opacity="0.17" stroke="#818cf8" stroke-opacity="0.4"/><text x="522" y="22" text-anchor="middle">xUnit</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- 03 · Smart Irrigation -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;0;0;0" keyTimes="0;0.1667;0.3333;0.5;0.6667;0.8333;1" calcMode="discrete" dur="30s" repeatCount="indefinite"/>
+      <g transform="translate(100 118)">
+        <circle cx="94" cy="94" r="92" fill="#10b981" fill-opacity="0.08" stroke="#34d399" stroke-opacity="0.52" stroke-width="2" stroke-dasharray="12 9">
+          <animateTransform attributeName="transform" type="rotate" from="0 94 94" to="360 94 94" dur="13s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="94" cy="94" r="70" fill="#052e2b" stroke="#6ee7b7" stroke-opacity="0.34"/>
+        <path d="M96 142c-4-38 0-64 26-88-48 5-75 31-64 60 7 18 23 27 38 28z" fill="#6ee7b7"/>
+        <path d="M94 140c3-37 13-58 36-77" fill="none" stroke="#d1fae5" stroke-width="5" stroke-linecap="round"/>
+        <path d="M45 61c0 13-8 23-18 23S9 74 9 61c0-12 18-33 18-33s18 21 18 33z" transform="translate(103 66) scale(.55)" fill="#38bdf8" filter="url(#smallGlow)"/>
+      </g>
+      <g transform="translate(350 105)">
+        <text x="0" y="28" fill="#6ee7b7" font-family="JetBrains Mono, Consolas, monospace" font-size="14" letter-spacing="3">03 / CONNECTED DEVICES</text>
+        <text x="0" y="88" fill="#f8fafc" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="52" font-weight="800">Smart Irrigation</text>
+        <text x="0" y="128" fill="#cbd5e1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="20">ESP32 sensing and pump control paired with a local-first</text>
+        <text x="0" y="157" fill="#cbd5e1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="20">Android monitoring application over HTTP.</text>
+        <g transform="translate(0 190)" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#ecfdf5">
+          <rect width="92" height="34" rx="17" fill="#10b981" fill-opacity="0.16" stroke="#34d399" stroke-opacity="0.4"/><text x="46" y="22" text-anchor="middle">Kotlin</text>
+          <rect x="104" width="128" height="34" rx="17" fill="#10b981" fill-opacity="0.16" stroke="#34d399" stroke-opacity="0.4"/><text x="168" y="22" text-anchor="middle">Compose</text>
+          <rect x="244" width="88" height="34" rx="17" fill="#10b981" fill-opacity="0.16" stroke="#34d399" stroke-opacity="0.4"/><text x="288" y="22" text-anchor="middle">MVVM</text>
+          <rect x="344" width="90" height="34" rx="17" fill="#10b981" fill-opacity="0.16" stroke="#34d399" stroke-opacity="0.4"/><text x="389" y="22" text-anchor="middle">ESP32</text>
+          <rect x="446" width="102" height="34" rx="17" fill="#10b981" fill-opacity="0.16" stroke="#34d399" stroke-opacity="0.4"/><text x="497" y="22" text-anchor="middle">Arduino</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- 04 · Shopping List Sharing -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;0;1;0;0;0" keyTimes="0;0.1667;0.3333;0.5;0.6667;0.8333;1" calcMode="discrete" dur="30s" repeatCount="indefinite"/>
+      <g transform="translate(100 118)">
+        <circle cx="94" cy="94" r="92" fill="#0ea5e9" fill-opacity="0.08" stroke="#38bdf8" stroke-opacity="0.52" stroke-width="2" stroke-dasharray="12 9">
+          <animateTransform attributeName="transform" type="rotate" from="0 94 94" to="360 94 94" dur="16s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="94" cy="94" r="70" fill="#082f49" stroke="#7dd3fc" stroke-opacity="0.34"/>
+        <path d="M50 55h18l12 63h55l14-43H75" fill="none" stroke="#bae6fd" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="91" cy="137" r="8" fill="#38bdf8" filter="url(#smallGlow)"/><circle cx="131" cy="137" r="8" fill="#38bdf8" filter="url(#smallGlow)"/>
+        <path d="M103 77h30M118 62v30" stroke="#f0f9ff" stroke-width="5" stroke-linecap="round"/>
+      </g>
+      <g transform="translate(350 105)">
+        <text x="0" y="28" fill="#7dd3fc" font-family="JetBrains Mono, Consolas, monospace" font-size="14" letter-spacing="3">04 / REALTIME MOBILE</text>
+        <text x="0" y="88" fill="#f8fafc" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="49" font-weight="800">Shopping List Sharing</text>
+        <text x="0" y="128" fill="#cbd5e1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="20">Collaborative lists, budgets, item claiming, and live updates</text>
+        <text x="0" y="157" fill="#cbd5e1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="20">across a Flutter client and a .NET backend.</text>
+        <g transform="translate(0 190)" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#f0f9ff">
+          <rect width="92" height="34" rx="17" fill="#0ea5e9" fill-opacity="0.16" stroke="#38bdf8" stroke-opacity="0.4"/><text x="46" y="22" text-anchor="middle">Flutter</text>
+          <rect x="104" width="78" height="34" rx="17" fill="#0ea5e9" fill-opacity="0.16" stroke="#38bdf8" stroke-opacity="0.4"/><text x="143" y="22" text-anchor="middle">Dart</text>
+          <rect x="194" width="110" height="34" rx="17" fill="#0ea5e9" fill-opacity="0.16" stroke="#38bdf8" stroke-opacity="0.4"/><text x="249" y="22" text-anchor="middle">Riverpod</text>
+          <rect x="316" width="102" height="34" rx="17" fill="#0ea5e9" fill-opacity="0.16" stroke="#38bdf8" stroke-opacity="0.4"/><text x="367" y="22" text-anchor="middle">SignalR</text>
+          <rect x="430" width="88" height="34" rx="17" fill="#0ea5e9" fill-opacity="0.16" stroke="#38bdf8" stroke-opacity="0.4"/><text x="474" y="22" text-anchor="middle">Dapper</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- 05 · BOAR Language -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;0;0;1;0;0" keyTimes="0;0.1667;0.3333;0.5;0.6667;0.8333;1" calcMode="discrete" dur="30s" repeatCount="indefinite"/>
+      <g transform="translate(100 118)">
+        <circle cx="94" cy="94" r="92" fill="#f59e0b" fill-opacity="0.07" stroke="#fbbf24" stroke-opacity="0.5" stroke-width="2" stroke-dasharray="12 9">
+          <animateTransform attributeName="transform" type="rotate" from="0 94 94" to="360 94 94" dur="12s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="94" cy="94" r="70" fill="#451a03" stroke="#fcd34d" stroke-opacity="0.32"/>
+        <path d="M50 82c6-34 31-50 44-50s38 16 44 50c11-8 22-5 25 8-2 15-14 22-25 23-4 28-20 45-44 45s-40-17-44-45c-11-1-23-8-25-23 3-13 14-16 25-8z" fill="none" stroke="#fde68a" stroke-width="6" stroke-linejoin="round"/>
+        <path d="M70 93l13 7M118 100l13-7M73 126c12 12 30 12 42 0" fill="none" stroke="#fcd34d" stroke-width="5" stroke-linecap="round"/>
+        <circle cx="81" cy="100" r="3" fill="#fff7ed"/><circle cx="119" cy="100" r="3" fill="#fff7ed"/>
+      </g>
+      <g transform="translate(350 105)">
+        <text x="0" y="28" fill="#fcd34d" font-family="JetBrains Mono, Consolas, monospace" font-size="14" letter-spacing="3">05 / COMPILER DESIGN</text>
+        <text x="0" y="88" fill="#f8fafc" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="52" font-weight="800">BOAR Language</text>
+        <text x="0" y="128" fill="#cbd5e1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="20">Experimental language and web IDE with ANTLR lexing,</text>
+        <text x="0" y="157" fill="#cbd5e1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="20">an LL(1) parser, FIRST/FOLLOW, and parse-tree views.</text>
+        <g transform="translate(0 190)" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#fffbeb">
+          <rect width="80" height="34" rx="17" fill="#f59e0b" fill-opacity="0.14" stroke="#fbbf24" stroke-opacity="0.4"/><text x="40" y="22" text-anchor="middle">C#</text>
+          <rect x="92" width="92" height="34" rx="17" fill="#f59e0b" fill-opacity="0.14" stroke="#fbbf24" stroke-opacity="0.4"/><text x="138" y="22" text-anchor="middle">.NET 10</text>
+          <rect x="196" width="94" height="34" rx="17" fill="#f59e0b" fill-opacity="0.14" stroke="#fbbf24" stroke-opacity="0.4"/><text x="243" y="22" text-anchor="middle">ANTLR</text>
+          <rect x="302" width="78" height="34" rx="17" fill="#f59e0b" fill-opacity="0.14" stroke="#fbbf24" stroke-opacity="0.4"/><text x="341" y="22" text-anchor="middle">LL(1)</text>
+          <rect x="392" width="102" height="34" rx="17" fill="#f59e0b" fill-opacity="0.14" stroke="#fbbf24" stroke-opacity="0.4"/><text x="443" y="22" text-anchor="middle">Blazor</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- 06 · AI and Numerical Experiments -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;0;0;0;1;0" keyTimes="0;0.1667;0.3333;0.5;0.6667;0.8333;1" calcMode="discrete" dur="30s" repeatCount="indefinite"/>
+      <g transform="translate(100 118)">
+        <circle cx="94" cy="94" r="92" fill="#a855f7" fill-opacity="0.08" stroke="#c084fc" stroke-opacity="0.52" stroke-width="2" stroke-dasharray="12 9">
+          <animateTransform attributeName="transform" type="rotate" from="0 94 94" to="360 94 94" dur="15s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="94" cy="94" r="70" fill="#2e1065" stroke="#d8b4fe" stroke-opacity="0.32"/>
+        <g fill="#e9d5ff" stroke="#c084fc" stroke-width="3">
+          <circle cx="94" cy="54" r="10"/><circle cx="60" cy="85" r="10"/><circle cx="128" cy="85" r="10"/>
+          <circle cx="69" cy="128" r="10"/><circle cx="119" cy="128" r="10"/><circle cx="94" cy="96" r="13" fill="#c084fc" filter="url(#smallGlow)"/>
+          <path d="M94 64v19M68 89l13 4M120 89l-13 4M75 119l11-13M113 119l-11-13" fill="none"/>
+        </g>
+      </g>
+      <g transform="translate(350 105)">
+        <text x="0" y="28" fill="#d8b4fe" font-family="JetBrains Mono, Consolas, monospace" font-size="14" letter-spacing="3">06 / AI &amp; SCIENTIFIC</text>
+        <text x="0" y="88" fill="#f8fafc" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="48" font-weight="800">AI &amp; Numerical Labs</text>
+        <text x="0" y="128" fill="#cbd5e1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="20">Search, Monte Carlo simulation, optimization, neural nets,</text>
+        <text x="0" y="157" fill="#cbd5e1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="20">convolution, pooling, and introductory computer vision.</text>
+        <g transform="translate(0 190)" font-family="JetBrains Mono, Consolas, monospace" font-size="13" fill="#faf5ff">
+          <rect width="94" height="34" rx="17" fill="#a855f7" fill-opacity="0.15" stroke="#c084fc" stroke-opacity="0.4"/><text x="47" y="22" text-anchor="middle">Python</text>
+          <rect x="106" width="100" height="34" rx="17" fill="#a855f7" fill-opacity="0.15" stroke="#c084fc" stroke-opacity="0.4"/><text x="156" y="22" text-anchor="middle">PyTorch</text>
+          <rect x="218" width="92" height="34" rx="17" fill="#a855f7" fill-opacity="0.15" stroke="#c084fc" stroke-opacity="0.4"/><text x="264" y="22" text-anchor="middle">NumPy</text>
+          <rect x="322" width="104" height="34" rx="17" fill="#a855f7" fill-opacity="0.15" stroke="#c084fc" stroke-opacity="0.4"/><text x="374" y="22" text-anchor="middle">Jupyter</text>
+          <rect x="438" width="112" height="34" rx="17" fill="#a855f7" fill-opacity="0.15" stroke="#c084fc" stroke-opacity="0.4"/><text x="494" y="22" text-anchor="middle">Vision</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Playback indicator -->
+    <g transform="translate(300 392)">
+      <rect x="0" y="0" width="600" height="4" rx="2" fill="#1e293b"/>
+      <rect x="0" y="0" width="100" height="4" rx="2" fill="url(#meter)" filter="url(#smallGlow)">
+        <animate attributeName="x" values="0;100;200;300;400;500;0" keyTimes="0;0.1667;0.3333;0.5;0.6667;0.8333;1" calcMode="discrete" dur="30s" repeatCount="indefinite"/>
+      </rect>
+      <g fill="#334155">
+        <circle cx="50" cy="18" r="4"/><circle cx="150" cy="18" r="4"/><circle cx="250" cy="18" r="4"/>
+        <circle cx="350" cy="18" r="4"/><circle cx="450" cy="18" r="4"/><circle cx="550" cy="18" r="4"/>
+      </g>
+      <circle cx="50" cy="18" r="5" fill="#67e8f9" filter="url(#smallGlow)">
+        <animate attributeName="cx" values="50;150;250;350;450;550;50" keyTimes="0;0.1667;0.3333;0.5;0.6667;0.8333;1" calcMode="discrete" dur="30s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="428" rx="25" fill="none" stroke="url(#edge)" stroke-opacity="0.35" stroke-width="2" stroke-dasharray="14 10">
+    <animate attributeName="stroke-dashoffset" values="48;0" dur="3s" repeatCount="indefinite"/>
+  </rect>
+</svg>
