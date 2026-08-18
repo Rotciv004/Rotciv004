@@ -96,21 +96,6 @@ I'm a software engineer and research assistant based in **Cluj-Napoca, Romania**
   JavaScript, HTML/CSS, PHP, Prolog, T-SQL, x86 Assembly, PowerShell, Solidity, Hardhat, OpenZeppelin, WinUI 3, Cisco networking, and Unity.
 </details>
 
-## GitHub activity
-
-<div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Rotciv004&amp;show_icons=true&amp;hide_border=true&amp;rank_icon=github&amp;bg_color=0D1117&amp;title_color=38BDF8&amp;icon_color=22D3EE&amp;text_color=CBD5E1" alt="Victor's GitHub statistics" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rotciv004&amp;layout=compact&amp;langs_count=8&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=38BDF8&amp;text_color=CBD5E1" alt="Victor's most used public repository languages" />
-</div>
-
-<div align="center">
-  <img width="98%" src="https://streak-stats.demolab.com?user=Rotciv004&amp;hide_border=true&amp;background=0D1117&amp;ring=38BDF8&amp;fire=22D3EE&amp;currStreakLabel=38BDF8&amp;sideLabels=CBD5E1&amp;dates=64748B&amp;currStreakNum=F8FAFC&amp;sideNums=F8FAFC" alt="Victor's GitHub contribution streak" />
-</div>
-
-<div align="center">
-  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=Rotciv004&amp;bg_color=0D1117&amp;color=38BDF8&amp;line=22D3EE&amp;point=F8FAFC&amp;area=true&amp;hide_border=true" alt="Victor's GitHub activity graph" />
-</div>
-
 ## Let's build something useful
 
 If you're working on a product involving **C++/Qt, Linux, .NET, connected systems, AI integration, or backend architecture**, I'd be glad to hear about it.
