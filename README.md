@@ -99,13 +99,3 @@ I'm a software engineer and research assistant based in **Cluj-Napoca, Romania**
 ## Let's build something useful
 
 If you're working on a product involving **C++/Qt, Linux, .NET, connected systems, AI integration, or backend architecture**, I'd be glad to hear about it.
-
-<div align="center">
-  <a href="mailto:rotcivraob@yahoo.com">
-    <img src="https://img.shields.io/badge/Start_a_conversation-0EA5E9?style=for-the-badge&amp;logo=minutemailer&amp;logoColor=white" alt="Email Victor" />
-  </a>
-</div>
-
-<div align="center">
-  <sub>From algorithms to interfaces, from sensors to services.</sub>
-</div>
