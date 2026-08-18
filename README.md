@@ -109,5 +109,3 @@ If you're working on a product involving **C++/Qt, Linux, .NET, connected system
 <div align="center">
   <sub>From algorithms to interfaces, from sensors to services.</sub>
 </div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:22D3EE,50:1D4ED8,100:0F172A&amp;height=110&amp;section=footer" width="100%" alt="Decorative footer" />
