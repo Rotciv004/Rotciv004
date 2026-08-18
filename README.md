@@ -1,4 +1,4 @@
-<div align="center">
+git <div align="center">
   <img src="./assets/header.svg" width="100%" alt="Victor Boar — Software Engineer and Research Assistant" />
 </div>
 
