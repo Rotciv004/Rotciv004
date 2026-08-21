@@ -4,42 +4,34 @@
 
 <div align="center">
   <a href="https://www.linkedin.com/in/victor-boar-65364a2bb/">
-    <img src="./assets/linkedin-button.svg" width="31%" alt="Connect with Victor on LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-Let's_connect-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:rotcivraob@yahoo.com">
-    <img src="./assets/email-button.svg" width="31%" alt="Email Victor" />
+    <img src="https://img.shields.io/badge/Email-Let's_talk-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email" />
   </a>
-  <a href="https://www.google.com/maps/search/?api=1&amp;query=46.7712%2C23.6236">
-    <img src="./assets/location-button.svg" width="31%" alt="Open Cluj-Napoca, Romania in Google Maps" />
-  </a>
+  <img src="https://img.shields.io/badge/Cluj--Napoca-Romania-0284C7?style=for-the-badge&amp;logo=googlemaps&amp;logoColor=white" alt="Cluj-Napoca, Romania" />
+  <img src="https://komarev.com/ghpvc/?username=Rotciv004&amp;style=for-the-badge&amp;color=0891b2&amp;label=PROFILE+VIEWS" alt="Profile views" />
 </div>
-
-<img src="./assets/animated-divider.svg" width="100%" alt="" />
-
-## About me
-
-I'm a software engineer and research assistant based in **Cluj-Napoca, Romania**. I enjoy working where software meets the physical world: native Linux applications, C++/Qt interfaces, computer-vision and AI integrations, backend systems, realtime mobile clients, and connected devices.
-
-- 🎓 Computer Science graduate and current master's student at **Babeș-Bolyai University**, focused on high-performance computing and large-scale data.
-- 🔬 Building production-facing software with **C++17, Qt 6/QML, OpenCV, OpenVINO, Python, and Linux**.
-- 🧩 Interested in **systems programming, software architecture, distributed systems, AI integration, and reliable backend engineering**.
-- 🐧 Daily-driving Fedora Linux and happiest when a project crosses boundaries between UI, services, operating systems, data, and hardware.
-- 🤝 Open to software engineering opportunities, research collaborations, and carefully scoped freelance projects.
 
 <div align="center">
-  <img src="./assets/focus-carousel.svg" width="100%" alt="Animated carousel of Victor's engineering focus areas" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=600&amp;size=21&amp;duration=3000&amp;pause=750&amp;color=38BDF8&amp;center=true&amp;vCenter=true&amp;repeat=true&amp;width=900&amp;lines=C%2B%2B+%2F+Qt+%2F+Linux+systems;.NET+backends+%26+realtime+applications;AI+integration+%26+computer+vision;From+sensors+to+software+products" alt="C++, Qt, Linux, .NET, AI integration and connected systems" />
 </div>
 
-<img src="./assets/animated-divider.svg" width="100%" alt="" />
+About me
 
-## Featured work
+I'm a software engineer and research assistant based in Cluj-Napoca, Romania. I enjoy working where software meets the physical world: native Linux applications, C++/Qt interfaces, computer-vision and AI integrations, backend systems, realtime mobile clients, and connected devices.
 
-<div align="center">
-  <a href="https://github.com/Rotciv004?tab=repositories">
-    <img src="./assets/project-carousel.svg" width="100%" alt="Animated carousel of Victor's selected projects — click to explore repositories" />
-  </a>
-  <sub>The carousel rotates automatically. Every project title below is a direct repository link.</sub>
-</div>
+🎓 Computer Science graduate and current master's student at Babeș-Bolyai University, focused on high-performance computing and large-scale data.
+
+🔬 Building production-facing software with C++17, Qt 6/QML, OpenCV, OpenVINO, Python, and Linux.
+
+🧩 Interested in systems programming, software architecture, distributed systems, AI integration, and reliable backend engineering.
+
+🐧 Daily-driving Fedora Linux and happiest when a project crosses boundaries between UI, services, operating systems, data, and hardware.
+
+🤝 Open to software engineering opportunities, research collaborations, and carefully scoped freelance projects.
+
+Featured work
 
 <table>
   <tr>
@@ -86,15 +78,7 @@ I'm a software engineer and research assistant based in **Cluj-Napoca, Romania**
   </tr>
 </table>
 
-<img src="./assets/animated-divider.svg" width="100%" alt="" />
-
-## Engineering toolbox
-
-<div align="center">
-  <a href="https://github.com/Rotciv004?tab=repositories">
-    <img src="./assets/tech-marquee.svg" width="100%" alt="Animated marquee of technologies found across Victor's repositories" />
-  </a>
-</div>
+Engineering toolbox
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=cpp,cs,python,c,java,kotlin,dart,ts,solidity&amp;theme=dark" alt="C++, C#, Python, C, Java, Kotlin, Dart, TypeScript and Solidity" />
@@ -102,13 +86,29 @@ I'm a software engineer and research assistant based in **Cluj-Napoca, Romania**
   <img src="https://skillicons.dev/icons?i=qt,dotnet,flutter,opencv,pytorch,cmake,linux,git,github,gitlab,mysql,arduino&amp;theme=dark" alt="Qt, .NET, Flutter, OpenCV, PyTorch, CMake, Linux, Git, GitHub, GitLab, MySQL and Arduino" />
 </div>
 
-| Area | Technologies |
-|---|---|
-| **Native & systems** | C++17/23, Qt 6, QML/Qt Quick, KDE Kirigami, CMake, Linux/Fedora, D-Bus, NetworkManagerQt, WireGuard |
-| **Backend & data** | C#, .NET 8/10, ASP.NET Core, Blazor, Entity Framework Core, Dapper, REST, SignalR, SQL Server, MySQL |
-| **Mobile & embedded** | Kotlin, Jetpack Compose, MVVM, StateFlow, Retrofit/OkHttp, Flutter, Riverpod, ESP32, Arduino |
-| **AI & scientific** | Python, OpenCV, OpenVINO, PyTorch, Jupyter, NumPy, Matplotlib, Octave/MATLAB, Maple |
-| **Quality & workflow** | Qt Test, CTest, xUnit, Moq, JUnit, Git, GitHub, GitLab, Visual Studio, VS Code |
+Area
+
+Technologies
+
+Native & systems
+
+C++17/23, Qt 6, QML/Qt Quick, KDE Kirigami, CMake, Linux/Fedora, D-Bus, NetworkManagerQt, WireGuard
+
+Backend & data
+
+C#, .NET 8/10, ASP.NET Core, Blazor, Entity Framework Core, Dapper, REST, SignalR, SQL Server, MySQL
+
+Mobile & embedded
+
+Kotlin, Jetpack Compose, MVVM, StateFlow, Retrofit/OkHttp, Flutter, Riverpod, ESP32, Arduino
+
+AI & scientific
+
+Python, OpenCV, OpenVINO, PyTorch, Jupyter, NumPy, Matplotlib, Octave/MATLAB, Maple
+
+Quality & workflow
+
+Qt Test, CTest, xUnit, Moq, JUnit, Git, GitHub, GitLab, Visual Studio, VS Code
 
 <details>
   <summary><b>More languages, platforms, and coursework</b></summary>
@@ -116,12 +116,33 @@ I'm a software engineer and research assistant based in **Cluj-Napoca, Romania**
   JavaScript, HTML/CSS, PHP, Prolog, T-SQL, x86 Assembly, PowerShell, Solidity, Hardhat, OpenZeppelin, WinUI 3, Cisco networking, and Unity.
 </details>
 
-<img src="./assets/animated-divider.svg" width="100%" alt="" />
-
-## Let's build something useful
-
-If you're working on a product involving **C++/Qt, Linux, .NET, connected systems, AI integration, or backend architecture**, I'd be glad to hear about it.
+GitHub activity
 
 <div align="center">
-  <img src="./assets/footer.svg" width="100%" alt="From algorithms to interfaces, from sensors to services" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Rotciv004&amp;show_icons=true&amp;hide_border=true&amp;rank_icon=github&amp;bg_color=0D1117&amp;title_color=38BDF8&amp;icon_color=22D3EE&amp;text_color=CBD5E1" alt="Victor's GitHub statistics" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rotciv004&amp;layout=compact&amp;langs_count=8&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=38BDF8&amp;text_color=CBD5E1" alt="Victor's most used public repository languages" />
 </div>
+
+<div align="center">
+  <img width="98%" src="https://streak-stats.demolab.com?user=Rotciv004&amp;hide_border=true&amp;background=0D1117&amp;ring=38BDF8&amp;fire=22D3EE&amp;currStreakLabel=38BDF8&amp;sideLabels=CBD5E1&amp;dates=64748B&amp;currStreakNum=F8FAFC&amp;sideNums=F8FAFC" alt="Victor's GitHub contribution streak" />
+</div>
+
+<div align="center">
+  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=Rotciv004&amp;bg_color=0D1117&amp;color=38BDF8&amp;line=22D3EE&amp;point=F8FAFC&amp;area=true&amp;hide_border=true" alt="Victor's GitHub activity graph" />
+</div>
+
+Let's build something useful
+
+If you're working on a product involving C++/Qt, Linux, .NET, connected systems, AI integration, or backend architecture, I'd be glad to hear about it.
+
+<div align="center">
+  <a href="mailto:rotcivraob@yahoo.com">
+    <img src="https://img.shields.io/badge/Start_a_conversation-0EA5E9?style=for-the-badge&amp;logo=minutemailer&amp;logoColor=white" alt="Email Victor" />
+  </a>
+</div>
+
+<div align="center">
+  <sub>From algorithms to interfaces, from sensors to services.</sub>
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:22D3EE,50:1D4ED8,100:0F172A&amp;height=110&amp;section=footer" width="100%" alt="Decorative footer" />
